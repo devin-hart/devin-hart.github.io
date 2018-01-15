@@ -403,13 +403,19 @@ there.
 
 
 /* Larger than mobile */
-@media (min-width: 400px) {}
+@media (min-width: 400px) {
+  .portfolio_logo { width: 400px; height: 102px; }
+}
 
 /* Larger than phablet (also point when grid becomes active) */
-@media (min-width: 550px) {}
+@media (min-width: 550px) {
+  .portfolio_logo { width: 550px; height: 141px; }
+}
 
 /* Larger than tablet */
-@media (min-width: 750px) {}
+@media (min-width: 750px) {
+  .portfolio_logo { width: 750px; height: 192px; }
+}
 
 /* Larger than desktop */
 @media (min-width: 1000px) {}
