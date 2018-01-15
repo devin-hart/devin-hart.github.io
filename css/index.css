@@ -57,6 +57,11 @@ a {
   background-image: url("/images/PH200.jpeg");
 }
 
+.portfolio_logo {
+  width: 800px;
+  height: 205px;
+}
+
 /* Larger than mobile */
 @media (min-width: 400px) {
   .portfolio_logo { width: 400px; height: 102px; }
