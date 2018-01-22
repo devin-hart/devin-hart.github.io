@@ -12,26 +12,12 @@ a {
   border-left: 1px solid black;
   border-top: 1px solid black;
   margin-top: 20px;
-  transition: background-color 0.5s ease
   z-index: -1;
   color: white;
   background-size: 200px 200px;
   font-size: 12px;
 }
 
-/* .box1fade, .box2fade, .box3fade,
-.box4fade, .box5fade, .box6fade {
-  height: 200px;
-  width: 200px;
-  margin-top: -19;
-  background-color: white;
-  transition: background-color 0.5s ease;
-} */
-
-.box1fade:hover, .box2fade:hover, .box3fade:hover,
-.box4fade:hover, .box5fade:hover, .box6fade:hover {
-  background-color: transparent;
-}
 
 .box1 {
   background-image: url("/images/skeleton_castle.png");
