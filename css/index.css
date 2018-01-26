@@ -1,5 +1,6 @@
 * {
   font-family: 'PT Mono', monospace;
+  background-color: #D3D3D3;
 }
 
 a {
@@ -47,6 +48,19 @@ a {
   width: 800px;
   height: 205px;
 }
+
+p.hidden-desc  {
+  background-color: transparent;
+  color: transparent;
+  width: 100%;
+  height: 100%;
+  vertical-align: bottom;
+}
+
+div.box1:hover, div.box2:hover, p.hidden-desc:hover {
+  color: white;
+}
+
 
 /* Larger than mobile */
 @media (min-width: 400px) {
