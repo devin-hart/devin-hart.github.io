@@ -2,6 +2,15 @@ html {
   background-color: black;
 }
 
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: #666666;
+}
+
 .game {
   margin: auto;
   display: block;
@@ -10,4 +19,11 @@ html {
 
 canvas {
   margin: auto;
+}
+
+nav {
+  display: block;
+  background-color: #D3D3D3;
+  font-family: 'PT Mono', monospace;
+  width: 100%;
 }
