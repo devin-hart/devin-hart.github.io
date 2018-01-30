@@ -1,10 +1,22 @@
 * {
   font-family: 'PT Mono', monospace;
-  background-color: #D3D3D3;
+  /* background-color: #D3D3D3; */
+  color: white;
 }
 
 a {
   text-decoration: none;
+}
+
+h1, div {
+  background-color: transparent;
+}
+
+body {
+   background: url("/images/portfolio_back_dark.png");
+   background-color: #cccccc;
+   /* background-size: 1024px 768px; */
+   background-position: center;
 }
 
 nav {
@@ -29,6 +41,7 @@ nav {
 
 .box1 {
   background-image: url("/images/skeleton_castle.png");
+  background-color: transparent;
 }
 
 .box2 {
@@ -65,7 +78,6 @@ p.hidden-desc  {
 
 div.box1:hover, div.box2:hover, p.hidden-desc:hover {
   color: white;
-  background-color: rgba(0, 0, 0, 0.5);
 }
 
 
@@ -82,4 +94,5 @@ div.box1:hover, div.box2:hover, p.hidden-desc:hover {
 /* Larger than tablet */
 @media (min-width: 750px) {
   .portfolio_logo { width: 750px; height: 192px; }
+
 }
