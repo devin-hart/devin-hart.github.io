@@ -1,11 +1,27 @@
 * {
   box-sizing: border-box;
   margin: 0;
-  /*background-color: rgba(0,0,0,0.1);*/
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: #666666;
 }
 
 body, html {
   height: 100vh;
+}
+
+nav {
+  display: block;
+  background-color: #D3D3D3;
+  font-family: 'PT Mono', monospace;
+  width: 100%;
+  color: black;
 }
 
 
