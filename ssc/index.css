@@ -4,7 +4,7 @@ html {
 
 a {
   text-decoration: none;
-  color: black;
+  color: #FFFFFF;
 }
 
 a:hover {
@@ -26,4 +26,5 @@ nav {
   background-color: #D3D3D3;
   font-family: 'PT Mono', monospace;
   width: 100%;
+  color: white;
 }
