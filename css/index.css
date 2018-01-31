@@ -30,15 +30,26 @@ nav {
 .portfolio_logo {
   width: 800px;
   height: 205px;
+  padding-top: 10px;
 }
 
-.ssc-desc, .trippin-desc, .bloggotron-desc, .f13-desc {
-  border: 1px white solid;
-  padding: 5px;
-  display: none;
+.siema-slides {
+  width: 50%;
 }
 
+.siema {
+  margin: auto;
+}
 
+.prev {
+  font-family: 'PT Mono', monospace;
+  float: left;
+}
+
+.next {
+  font-family: 'PT Mono', monospace;
+  float: right;
+}
 
 /* Larger than mobile */
 @media (min-width: 400px) {
