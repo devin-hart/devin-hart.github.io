@@ -26,59 +26,17 @@ nav {
   width: 100%;
 }
 
-.box1, .box2, .box3, .box4, .box5, .box6 {
-  height: 200px;
-  width: 200px;
-  border-left: 1px solid black;
-  border-top: 1px solid black;
-  margin-top: 20px;
-  z-index: -1;
-  color: white;
-  background-size: 200px 200px;
-  font-size: 12px;
-}
-
-
-.box1 {
-  background-image: url("/images/skeleton_castle.png");
-  background-color: transparent;
-}
-
-.box2 {
-  background-image: url("/images/trippin.png");
-}
-
-.box3 {
-  background-image: url("/images/PH200.jpeg");
-}
-
-.box4 {
-  background-image: url("/images/PH200.jpeg");
-}
-
-.box5 {
-  background-image: url("/images/PH200.jpeg");
-}
-
-.box6 {
-  background-image: url("/images/PH200.jpeg");
-}
-
 .portfolio_logo {
   width: 800px;
   height: 205px;
 }
 
-p.hidden-desc  {
-  background-color: transparent;
-  color: transparent;
-  width: 100%;
-  height: 100%;
+.ssc-desc, .trippin-desc, .bloggotron-desc {
+  border: 1px white solid;
+  padding: 5px;
+  display: none;
 }
 
-div.box1:hover, div.box2:hover, p.hidden-desc:hover {
-  color: white;
-}
 
 
 /* Larger than mobile */
