@@ -31,7 +31,7 @@ nav {
   height: 205px;
 }
 
-.ssc-desc, .trippin-desc, .bloggotron-desc {
+.ssc-desc, .trippin-desc, .bloggotron-desc, .f13-desc {
   border: 1px white solid;
   padding: 5px;
   display: none;
