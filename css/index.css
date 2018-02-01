@@ -26,11 +26,12 @@ nav {
 
 .portfolio_logo {
   padding-top: 10px;
-  width: 960px;
-  height: 244px;
+  max-width: 100%;
+  height: auto;
 }
 
 .siema-slides {
+  padding: 5px;
 }
 
 .prev {
@@ -60,5 +61,10 @@ nav {
 /* Larger than tablet */
 @media only screen and (min-width: 750px) {
   .portfolio_logo { width: 750px; height: 192px; }
+
+}
+
+@media only screen and (min-width: 1025px) {
+  .portfolio_logo { width: 960px; height: 244px; }
 
 }
