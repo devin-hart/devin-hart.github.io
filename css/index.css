@@ -1,6 +1,5 @@
 * {
   font-family: 'PT Mono', monospace;
-  /* background-color: #D3D3D3; */
   color: white;
 }
 
@@ -15,7 +14,6 @@ h1, div {
 body {
    background: url("/images/portfolio_back_dark.png");
    background-color: #cccccc;
-   /* background-size: 1024px 768px; */
    background-position: center;
 }
 
@@ -28,16 +26,13 @@ nav {
 }
 
 .portfolio_logo {
-  width: 800px;
-  height: 205px;
   padding-top: 10px;
+  width: 960px;
+  height: 244px;
 }
 
 .siema-slides {
-}
-
-.siema {
-  margin: auto;
+  padding: 5px;
 }
 
 .prev {
