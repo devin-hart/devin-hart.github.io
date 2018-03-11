@@ -1,0 +1,148 @@
+* {
+  font-family: 'Share Tech Mono', monospace;
+}
+
+#drone-title {
+  grid-column: 2/3;
+  grid-row: 1;
+  text-align: center;
+  text-shadow: 0px 3px 0px #26466D,
+                 0px 14px 10px rgba(0,0,0,0.15),
+                 0px 24px 2px rgba(0,0,0,0.1),
+                 0px 34px 30px rgba(0,0,0,0.1);
+  font-size: 30px;
+}
+
+#osc-title {
+  text-align: left;
+}
+
+#vol-title {
+  text-align: right;
+}
+
+#pwm-title {
+  text-align: center;
+}
+
+#drone-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 11px;
+  width: 400px;
+  height: 600px;
+  background-color: #0D4F8B;
+  color: #4F94CD;
+  margin: 0 auto;
+  padding: 5px;
+}
+
+#sine-osc-container, #triangle-osc-container,
+#sawtooth-osc-container, #pulse-osc-container {
+  grid-column: 1/3;
+}
+
+#pwm-container {
+  grid-column: 2/3;
+  grid-row: 4;
+  text-align: center;
+}
+
+#sine-vol-container, #triangle-vol-container,
+#sawtooth-vol-container, #pulse-vol-container {
+  grid-column: 3/3;
+  text-align: right;
+}
+
+#sine-osc-container, #sine-vol-container {
+  grid-row: 1;
+}
+
+#triangle-osc-container, #triangle-vol-container {
+  grid-row: 2;
+}
+
+#sawtooth-osc-container, #sawtooth-vol-container {
+  grid-row: 3;
+}
+
+#pulse-osc-container, #pulse-vol-container {
+  grid-row: 4;
+}
+
+#sine-light-container {
+  position: relative;
+  grid-row: 1;
+  grid-column: 2;
+  margin: 0 auto;
+}
+
+#triangle-light-container {
+  position: relative;
+  grid-row: 2;
+  grid-column: 2;
+  margin: 0 auto;
+}
+
+#sawtooth-light-container {
+  position: relative;
+  grid-row: 3;
+  grid-column: 2;
+  margin: 0 auto;
+}
+
+#pulse-light-container {
+  position: relative;
+  grid-row: 4;
+  grid-column: 2;
+  margin: 0 auto;
+}
+
+#sine-light, #triangle-light, #sawtooth-light, #pulse-light {
+  height: 16px;
+  width: 16px;
+  border: 2px dotted black;
+  text-align: center;
+  grid-column: 2/3;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 0;
+}
+
+#sine-light {
+  grid-row: 1;
+  background-color: black;
+}
+
+#triangle-light {
+  grid-row: 2;
+  background-color: black;
+}
+
+#sawtooth-light {
+  grid-row: 3;
+  background-color: black;
+}
+
+#pulse-light {
+  grid-row: 4;
+  background-color: black;
+}
+
+#sine-osc-value, #triangle-osc-value,
+#sawtooth-osc-value, #pulse-osc-value,
+#sine-vol-value, #triangle-vol-value,
+#sawtooth-vol-value, #pulse-vol-value {
+  height: 15px;
+  width: 15px;
+  border: 1px solid #4F94CD;
+  background-color: #FFFFE0;
+  display: inline-block;
+  text-align: center;
+  color: black;
+}
+
+#sine-vol-value, #triangle-vol-value,
+#sawtooth-vol-value, #pulse-vol-value {
+}
