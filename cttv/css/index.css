@@ -60,7 +60,7 @@ nav {
   width: 400px;
   height: 600px;
   background-color: #0D4F8B;
-  background-image: url("/images/bg.png");
+  background-image: url("images/bg.png");
   color: #4F94CD;
   margin: 0 auto;
   padding: 5px;
