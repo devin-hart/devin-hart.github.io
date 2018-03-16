@@ -58,12 +58,6 @@ sineKnob.addEventListener('input', () => {
   console.log("Sine frequency: " + sineOsc.frequency.value);
 });
 
-sineKnob.addEventListener('touchstart', () => {
-  sineOsc.frequency.value = sineKnob.value;
-  sineOscVal.textContent = sineKnob.value;
-  console.log("Sine frequency: " + sineOsc.frequency.value);
-});
-
 triangleKnob.addEventListener('input', () => {
   triangleOsc.frequency.value = triangleKnob.value;
   triangleOscVal.textContent = triangleKnob.value;
@@ -84,13 +78,6 @@ pulseKnob.addEventListener('input', () => {
 
 // Volume Knobs
 sineVolKnob.addEventListener('input', () => {
-  sineOsc.volume.value = sineVolKnob.value;
-  sineVolVal.textContent = sineVolKnob.value;
-  console.log("Sine volume: " + Math.ceil(sineOsc.volume.value));
-  lightOn(sineVolKnob.value, sineLight);
-});
-
-sineVolKnob.addEventListener('touchstart', () => {
   sineOsc.volume.value = sineVolKnob.value;
   sineVolVal.textContent = sineVolKnob.value;
   console.log("Sine volume: " + Math.ceil(sineOsc.volume.value));
