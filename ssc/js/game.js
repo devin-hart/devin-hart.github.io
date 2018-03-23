@@ -1,6 +1,6 @@
 // NES Res 256, 240
 
-var game = new Phaser.Game(256, 240, Phaser.AUTO, '', {
+var game = new Phaser.Game(256, 240, Phaser.AUTO, 'game-window', {
   preload: preload,
   create: create,
   update: update,
