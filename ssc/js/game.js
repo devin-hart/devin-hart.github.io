@@ -99,10 +99,10 @@ function create() {
 // Player
 
   // Beginning of level spawn
-  // player = game.add.sprite(32, game.world.height - 150, 'player');
+  player = game.add.sprite(32, game.world.height - 150, 'player');
 
   // Castle Spawn
-  player = game.add.sprite(2288, 112, 'player');
+  // player = game.add.sprite(2288, 112, 'player');
 
   // End of level spawn
   // player = game.add.sprite(3263, 160, 'player');
