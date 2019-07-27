@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Vacation Aniticipation</title>
+  <link rel="stylesheet" href="https://meyerweb.com/eric/tools/css/reset/reset.css">
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <div class="vacation__timer-container">
+      <h2>Vacation Countdown</h2>
+      <div class="vacation__timer"></div>
+  </div>
+  <div class="vacation__content">
+    <div class="vacation__title" data-name="weather">
+        <a href="#"><h2>Weather</h2><img src="img/chevron-down.png" class="chevron" alt=""> </a>
+    </div>
+    <div class="vacation__section" id="weather">
+        <script type='text/javascript' src='https://darksky.net/widget/default/38.7209,-75.076/us12/en.js?width=94%&height=350&title=Rehoboth Beach, DE&textColor=333333&bgColor=FFFFFF&transparency=false&skyColor=undefined&fontFamily=Default&customFont=&units=us&htColor=333333&ltColor=C7C7C7&displaySum=yes&displayHeader=yes'></script>
+    </div>
+    <div class="vacation__title" data-name="dinner">
+        <a href="#"><h2>Dinner Schedule</h2><img src="img/chevron-down.png" class="chevron" alt=""> </a>
+    </div>
+    <div class="vacation__section" id="dinner">
+      <ul>
+        <li>Friday: Grotto Pizza</li>
+        <li>Saturday: Hawaiian Night</li>
+        <li>Sunday: TBA</li>
+        <li>Monday: Hotdogs & Wimpies</li>
+        <li>Tuesday: Tacos</li>
+        <li>Wednesday: Leftovers/Fend for yourself</li>
+        <li>Thursday: Grotto Pizza</li>
+      </ul>
+    </div>
+    <div class="vacation__title" data-name="cocktails">
+        <a href="#"><h2>Cocktails</h2><img src="img/chevron-down.png" class="chevron" alt=""> </a>
+    </div>
+    <div class="vacation__section" id="cocktails">
+        <ul>
+          <li>White Wine Peach Sangria - All Week</li>
+          <li>Margaritas</li>
+          <li>Alabama Slammers</li>
+          <li>Mojitos</li>
+          <li>Fishtown Iced Teas</li>
+          <li>Beer - All Day Every Day</li>
+        </ul>
+      </div>
+    <div class="vacation__title" data-name="song">
+        <a href="#"><h2>Vacation Anticipation</h2><img src="img/chevron-down.png" class="chevron" alt=""> </a>
+    </div>
+    <div class="vacation__section" id="song">
+        <iframe src="https://open.spotify.com/embed/track/60lvOUKfahSf5ZqwRtrPse" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+    </div>
+    <div class="vacation__title" data-name="food">
+        <a href="#"><h2>Grotto/Thrasher's</h2><img src="img/chevron-down.png" class="chevron" alt=""> </a>
+    </div>
+    <div class="vacation__section" id="food">
+      <h3>Grotto</h3>
+      <div class="vacation__food">
+        <a href="tel:302-227-4588">
+          <h4>Boardwalk North</h4>
+          <p>Hours:</p>
+          <p>10 AM – 1 AM</p>
+          <div class="grotto-north-status food-status"></div>
+          <div class="vacation__phone">
+            <img src="img/telephone-icon.png" alt="" class="phone-icon"><span>Phone: 302-227-4588</span>
+          </div>
+        </a>
+      </div>
+      <div class="vacation__food">
+        <a href="tel:302-227-3278">
+            <h4>Rehoboth Ave.</h4>
+            <p>Hours:</p>
+            <p>Sunday – Thursday: 11 AM – 1 AM</p>
+            <p>Friday & Saturday: 11 AM – 2 AM</p>
+            <div class="grotto-main-status food-status"></div>
+            <div class="vacation__phone">
+              <img src="img/telephone-icon.png" alt="" class="phone-icon"><span>Phone: 302-227-3278</span>
+            </div>
+          </a>
+      </div>
+      <h3>Thrasher's</h3>
+      <a href="#">
+      <div class="vacation__food">
+        <p>Hours:</p>
+        <p>Monday: 11 AM - 8 PM</p>
+        <p>Tuesday – Sunday: 11 AM – 10 PM</p>
+        <div class="thrashers-status food-status"></div>
+      </div>
+      </a>
+    </div>
+    <div class="vacation__title" data-name="house">
+        <a href="#"><h2>House Info</h2><img src="img/chevron-down.png" class="chevron" alt=""> </a>
+    </div>
+    <div class="vacation__section" id="house">
+      <div class="mapouter"><div class="gmap_canvas"><iframe width="300" height="300" id="gmap_canvas" src="https://maps.google.com/maps?q=6%20park%20ave%20rehoboth%20beach%20de&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.embedgooglemap.net/blog/best-wordpress-themes/"></a></div><style>.mapouter{position:relative;text-align:right;height:300px;width:300px;}.gmap_canvas {overflow:hidden;background:none!important;height:300px;width:300px;}</style></div>
+      <div class="vacation__phone">
+        <a href="tel:302-227-3883">
+          <h3>Jack Lingo</h3>
+          <p>Hours:</p>
+          <p>Monday - Satudary: 9 AM - 5 PM</p>
+          <p>Sunday: 10 AM – 4 PM</p>
+          <img src="img/telephone-icon.png" alt="" class="phone-icon"><span>Phone: 302-227-3883</span>
+        </a>
+      </div>
+    </div>
+  </div>
+</body>
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/index.js"></script>
+</html>

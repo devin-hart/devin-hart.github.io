@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:200,400,700&display=swap');
+
+* {
+  color: white;
+}
+
+body {
+  background-repeat: no-repeat;
+  margin-top: 25px;
+}
+
+
+h2 {
+  font-size: 24px;
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+}
+
+li {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  padding: 10px 5px;
+}
+
+.vacation__timer-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.vacation__content {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.vacation__section {
+  display: none;
+  width: 100%;
+  padding: 25px;
+  margin-left: 25px;
+  background: rgba(0, 0, 0, 0.25);
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  padding: 0 10px;
+}
+
+.vacation__title {
+  width: 100%;
+  background: rgba(0, 0, 0, 0.25);
+  margin: 10px 0;
+  padding-left: 25px;
+}
+
+.vacation__title a {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  padding: 15px 0px;
+  align-items: center;
+}
+
+.vacation__title.active .chevron {
+  transform: rotate(180deg);
+}
+
+.chevron {
+  height: 13px;
+  width: 20px;
+  transition: all 0.5s;
+}
+.vacation__timer {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 38px;
+  font-weight: 200;
+}
+
+.vacation__timer-container {
+  margin: 25px 0;
+  background: rgba(0, 0, 0, 0.25);
+  padding: 25px 0;
+}
+
+.vacation__section a {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  padding: 10px 5px;
+}
+
+.phone-icon {
+  margin-right: 10px;
+}
+
+.vacation__section p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+}
+
+.vacation__phone {
+  padding: 15px 0;
+  display: flex;
+  align-items: center;
+}
+
+.vacation__phone span {
+  text-decoration: underline;
+}
+
+.food-status {
+  font-weight: bold;
+  font-size: 22px;
+}
