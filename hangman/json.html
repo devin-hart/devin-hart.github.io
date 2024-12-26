@@ -11,109 +11,100 @@
 <body>
   <pre>
   <code>
-  {
-  "api": {
-      "id": null,
-      "worker-id": null
-  },
-  "http": {
-      "enabled": false,
-      "host": "127.0.0.1",
-      "port": 0,
-      "access-token": null,
-      "restricted": true
-  },
-  "autosave": true,
-  "background": false,
-  "colors": true,
-  "title": true,
-  "randomx": {
-      "init": -1,
-      "init-avx2": -1,
-      "mode": "auto",
-      "1gb-pages": false,
-      "rdmsr": true,
-      "wrmsr": true,
-      "cache_qos": false,
-      "numa": true,
-      "scratchpad_prefetch_mode": 1
-  },
-  "cpu": {
-      "enabled": true,
-      "huge-pages": true,
-      "huge-pages-jit": false,
-      "hw-aes": null,
-      "priority": null,
-      "memory-pool": false,
-      "yield": true,
-      "max-threads-hint": 100,
-      "asm": true,
-      "argon2-impl": null,
-      "cn/0": false,
-      "cn-lite/0": false
-  },
-  "opencl": {
-      "enabled": false,
-      "cache": true,
-      "loader": null,
-      "platform": "AMD",
-      "adl": true,
-      "cn/0": false,
-      "cn-lite/0": false
-  },
-  "cuda": {
-      "enabled": false,
-      "loader": null,
-      "nvml": true,
-      "cn/0": false,
-      "cn-lite/0": false
-  },
-  "donate-level": 1,
-  "donate-over-proxy": 1,
-  "log-file": null,
-  "pools": [
-      {
-          "algo": "rx/0",
-          "coin": null,
-          "url": "us-qrl.miningocean.org:3333",
-          "user": "Q01050056fb23bcbcfc7bcb721587f05cfad7a193a0d5620644d1af50f57b69ef5028b28876390d",
-          "pass": "a03s-1",
-          "rig-id": null,
-          "nicehash": false,
-          "keepalive": false,
-          "enabled": true,
-          "tls": false,
-          "tls-fingerprint": null,
-          "daemon": false,
-          "socks5": null,
-          "self-select": null,
-          "submit-to-origin": false
-      }
-  ],
-  "print-time": 60,
-  "health-print-time": 60,
-  "dmi": true,
-  "retries": 5,
-  "retry-pause": 5,
-  "syslog": false,
-  "tls": {
-      "enabled": false,
-      "protocols": null,
-      "cert": null,
-      "cert_key": null,
-      "ciphers": null,
-      "ciphersuites": null,
-      "dhparam": null
-  },
-  "dns": {
-      "ipv6": false,
-      "ttl": 30
-  },
-  "user-agent": null,
-  "verbose": 0,
-  "watch": true,
-  "pause-on-battery": false,
-  "pause-on-active": false
+{
+    "api": {
+        "id": null,
+        "worker-id": null
+    },
+    "http": {
+        "enabled": false,
+        "host": "127.0.0.1",
+        "port": 0,
+        "access-token": null,
+        "restricted": true
+    },
+    "autosave": true,
+    "background": false,
+    "colors": true,
+    "title": true,
+    "randomx": {
+        "init": -1,
+        "mode": "auto",
+        "1gb-pages": false,
+        "rdmsr": true,
+        "wrmsr": true,
+        "cache_qos": false,
+        "numa": true
+    },
+    "cpu": {
+        "enabled": true,
+        "huge-pages": true,
+        "hw-aes": null,
+        "priority": null,
+        "memory-pool": false,
+        "yield": true,
+        "max-threads-hint": 100,
+        "asm": true,
+        "argon2-impl": null,
+        "astrobwt-max-size": 550,
+        "cn/0": false,
+        "cn-lite/0": false,
+        "kawpow": false
+    },
+    "opencl": {
+        "enabled": false,
+        "cache": true,
+        "loader": null,
+        "platform": "AMD",
+        "adl": true,
+        "cn/0": false,
+        "cn-lite/0": false
+    },
+    "cuda": {
+        "enabled": false,
+        "loader": null,
+        "nvml": true,
+        "cn/0": false,
+        "cn-lite/0": false
+    },
+    "donate-level": 1,
+    "donate-over-proxy": 1,
+    "log-file": null,
+    "pools": [
+        {
+            "algo": "rx/0",
+            "coin": null,
+            "url": "us-qrl.miningocean.org:3333",
+            "user": "Q01050056fb23bcbcfc7bcb721587f05cfad7a193a0d5620644d1af50f57b69ef5028b28876390d",
+            "pass": "a03s1",
+            "rig-id": null,
+            "nicehash": false,
+            "keepalive": true,
+            "enabled": true,
+            "tls": false,
+            "tls-fingerprint": null,
+            "daemon": false,
+            "socks5": null,
+            "self-select": null
+        }
+    ],
+    "print-time": 60,
+    "health-print-time": 60,
+    "retries": 5,
+    "retry-pause": 5,
+    "syslog": false,
+    "tls": {
+        "enabled": false,
+        "protocols": null,
+        "cert": null,
+        "cert_key": null,
+        "ciphers": null,
+        "ciphersuites": null,
+        "dhparam": null
+    },
+    "user-agent": null,
+    "verbose": 0,
+    "watch": true
 }
   </code>
   </pre>
